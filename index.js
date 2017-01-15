@@ -1,3 +1,3 @@
 require('http').createServer((req, res) => {
   res.end(`Hello from: ${require('os').hostname()}`)
-}).listen(8000)
+}).listen(80)
